@@ -21,3 +21,31 @@ print("a > b = " ,a>b)   #greater than
 print("a < b = " ,a<b)   #less than 
 print("a >= b = " ,a>=b) #greater than or equal to
 print("a <= b = " ,a<=b) #less than or equal to 
+
+#assignment operators 
+#(= , +# , -= , *= , /= , %= , //= , **= )
+
+a=10
+print("a = " ,a) 
+a+=5
+print("a += 5 = " ,a)
+a-=5
+print("a -= 5 = " ,a)
+a*=5
+print("a *= 5 = " ,a)
+a/=5
+print("a /= 5 = " ,a)
+a%=5
+print("a %= 5 = " ,a)
+a//=5
+print("a //= 5 = " ,a)
+a**=2
+print("a **= 2 = " , a)
+
+#Logical Operators
+#(and , or , not ) 
+a=5
+b=10
+print("a and b = " ,a and b)
+print("a or b = " ,a or b)
+print("not a = " ,not a)
