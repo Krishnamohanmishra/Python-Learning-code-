@@ -44,8 +44,10 @@ print("a **= 2 = " , a)
 
 #Logical Operators
 #(and , or , not ) 
-a=5
-b=10
-print("a and b = " ,a and b)
-print("a or b = " ,a or b)
-print("not a = " ,not a)
+
+
+a=0
+b=3
+print("a and b = " ,a and b) #returns last true value but if any value is false it returns false
+print("a or b = " ,a or b)   #returns first true value but if first / all vaues are false it returns false
+print("not a = " ,not a)     #returns false 
